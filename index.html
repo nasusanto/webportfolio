@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+        <!--linking css style sheet-->
+        <link rel="stylesheet" href="style.css">
+        <!--linking js sheet -->
+        <script src="main.js"></script> 
+
+        <!--word typing animation sourced by https://github.com/mattboldt/typed.js/-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <!--adding/linking Baloo font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+
+        <!-- Fade in title sourced by https://github.com/michalsnik/aos-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!-- Slick sourced by https://cdnjs.com/libraries/slick-carousel-->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <!--tab title-->
+        <title>Hello! | Nadia Susanto</title>
+        <link rel="icon" href="Images/favicon.ico">
+        
+    </head>
+    <body>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src = "images/logo.gif" alt = "NS logo" width="200">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="story.html">My Story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="experiences.html">Experiences</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html" tabindex="-1" aria-disabled="true">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        
+
+        <!-- Intro -->
+        <div class = "container">
+            <h1 class="text-center hello" data-aos="fade-left" data-aos-duration="3000">Hi, I'm Nadia! 👋</h1>
+            <h2 class="text-center">
+                <span class = "hello-traits"></span>
+                <span class = "hello-CMU">@ <a class="detail-link" href="https://www.cmu.edu/" target="_blank"> Carnegie Mellon University</a></span>
+            </h2>
+        </div>
+        
+            
+        <!--Professional Stuff-->
+        <div class = "container" id = "professionally">
+            <h1 class="professionally-title">Professionally</h1>
+            <div class = "row">
+                <!--Education-->
+                <div class = "col-md-4">
+                    <span class = "education">
+                        <p>🎓</p>
+                        <p>Business <span class = "Tepper"> @ <a class="detail-link" href="https://www.cmu.edu/tepper/" target="_blank"> Tepper </a></span> +</p>
+                        <p>Human-Computer Interaction <span class = "SCS"> @ <a class="detail-link" href="https://hcii.cmu.edu/" target="_blank"> SCS </a></span></p>
+                    </span>
+                    
+                </div>
+                <!--Company Position-->
+                <div class = "col-md-4">
+                    <span class = "company-position">
+                        <p>💼</p>
+                        <p>Incoming M&A Deals Summer Associate <span class = "company"> @ <a class="detail-link" href="https://www.pwc.com/" target="_blank"> PwC </a></span></p>
+                    </span>
+                </div>
+                <!--Club Position-->
+                <div class = "col-md-4">
+                    <span class = "club-position">
+                        <p>🌎</p>
+                        <p>President <span class = "club"> @ <a class="detail-link" href="https://cmu180dc.org/" target="_blank"> 180 Degrees Consulting </a></span></p>
+                    </span>
+                </div> 
+            </div>
+            <!--Entrepreneurship-->
+            <div class = "row">
+                <div class = "col-md-4">
+                    <span class = "entrepreneurship">
+                        <p>💡</p>
+                        <p>Founder/CEO <span class = "bivi"> @ <a class="detail-link" href="https://bivi.us/" target="_blank"> Bivi,</a></span> <span class = "nofores"> @ NoFores</span></p>
+                    </span>
+                </div>
+                <!--Innovation Scholar-->
+                <div class = "col-md-4">
+                    <span class = "innovation-scholar">
+                        <p>🧠</p>
+                        <p>Innovation Scholar <span class = "Swartz"> @ <a class="detail-link" href="https://www.cmu.edu/swartz-center-for-entrepreneurship/education-and-resources/innovation-scholars/meet-the-innovation-scholars.html" target="_blank"> Swartz Center for Entrepreneurship</a></span></p>
+                    </span>
+                </div>  
+            </div>
+        </div>
+
+        <!--Line Divider-->
+        <div class="text-center">
+            <hr class = "line" size="8">  
+        </div>  
+
+        <!--Hobbies/For Fun-->
+        <div class = "container" id = "hobbies">
+            <h1 class="hobbies-title">Hobbies/Fun Shenaningans</h1>
+            <div class = "row">
+                <!--Poker-->
+                <div class = "col-md-4">
+                    <span class = "poker">
+                        <p>♠️</p>
+                        <p>Poker Lover</p>
+                    </span>
+                </div>
+                <!--Collegiate Golfer-->
+                <div class = "col-md-4">
+                    <span class = "golf">
+                        <p>⛳</p>
+                        <p><a class="detail-link" href="https://athletics.cmu.edu/sports/wgolf/index" target="_blank"> Collegiate Golfer</a></p>
+                    </span>
+                </div>
+                <!--Survivor-->
+                <div class = "col-md-4">
+                    <span class = "survivor">
+                        <p>🗿</p>
+                        <p><a class="detail-link" href="https://www.youtube.com/channel/UC0lbIk80sLDvPfpcHzqz-uw" target="_blank"> Scotty Survivor Season 2</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer class="page-footer">
+            <div class="footer-copyright text-center">
+                Site developed with love ❤️
+                </a><br></br> © Nadia Susanto </div>
+        </footer>
+
+
+        <!--code for word animation sourced by https://github.com/mattboldt/typed.js/-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+          var options = {
+            strings: ["Changemaker", "Leader", "Initiator", "Scholar Athlete"],
+            typeSpeed: 50,
+            loop: true,
+            startDelay: 500,
+            backSpeed: 75,
+        };
+        var typed = new Typed('.hello-traits', options);
+        </script>
+    </body>
+</html>

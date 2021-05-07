@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--linking bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+        <!--linking css style sheet-->
+        <link rel="stylesheet" href="style.css">
+        <!--linking js sheet -->
+        <script src="main.js"></script> 
+
+        <!--word typing animation sourced by https://github.com/mattboldt/typed.js/-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <!--adding/linking Baloo font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+
+        <!-- Animate on Scroll sourced by https://github.com/michalsnik/aos-->
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!-- Slick sourced by https://cdnjs.com/libraries/slick-carousel-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+
+        <!--tab title-->
+        <title>Story | Nadia Susanto</title>
+        
+    </head>
+    <body>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src = "images/logo.gif" alt = "NS logo" width="200">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="story.html">My Story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="experiences.html">Experiences</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html" tabindex="-1" aria-disabled="true">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!--story glimpse-->
+        <h1 class="text-center story-title">My Story 📖</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                    <div class="story-image-slider" style="width: 200px; height: 200px;">
+                        <img class="story-image" src="images/Headshot.png" alt="Headshot">
+                        <img class="story-image" src="Images/Casual Headshot.jpg" alt="Casual Headshot">
+                    </div>            
+                </div>
+                <div class="col-12 col-md-8">
+                    <p>(Me in a glimpse)</p>
+                    <p>Hi! My name is Nadia Susanto, and I am a current Junior at Carnegie Mellon University. I am double majoring in Business Adminstration and Human-Computer Interaction. I am also double minoring in Innovation & Entrepreneurship and Societal Human Impacts of Future Technologies.</p>
+                    <p>I am Captain of the Women’s Golf Team @ CMU, President @ 180 Degrees Consulting, Director of Professional Development @ CMU President’s Cabinet, Pledge Captain @ Alpha Kappa Psi.</p>
+                    <p>I love playing poker, being on season 2 of Scotty Survivor, watching sports, and traveling!</p>
+                </div>
+            </div>
+
+            <!--bouncing arrow animation sourced by https://css-tricks.com/making-css-animations-feel-natural/-->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="Images/arrow.png" alt="Down Arrow" id="down-arrow" class="vertical-bounce">
+                </div>
+            </div>
+        </div>
+
+        <!--Slick image animation sourced by https://kenwheeler.github.io/slick/-->
+          <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+          <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+          <script type="text/javascript">
+            $(document).ready(function(){
+              $('.story-image-slider').slick({
+                    dots: false,
+                    infinite: true,
+                    speed: 100,
+                    fade: true,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    cssEase: 'linear',
+                    pauseOnFocus: false,
+                    pauseOnHover: false,
+              });
+            });
+          </script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+    </body>
+</html>
