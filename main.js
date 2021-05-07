@@ -1,8 +1,3 @@
-
-// window.onload = function () {
-//     var typed = new Typed('.hello-traits', options);
-// }
-
 var categories = ['Entrepreneurship', 'Life', 'College', 'Professional', 'Networking', 'Sports'];
 var selectedCategory = null;
 
