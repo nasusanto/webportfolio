@@ -14,6 +14,10 @@
     color: #ef3b46;
 }
 
+.nav-item.nav-link.active, .nav-item.nav-link:hover{
+    color: #ef3b46!important;
+}
+
 /*************************/
 /* Introduction Page */
 
@@ -47,24 +51,24 @@ a:link{
     text-decoration: none;
 }
 
-.Tepper a:link{
+#Tepper{
     color: #ef3b46;
     font-size: 24px;
 }
 
-.SCS{
-    color: #ef3b46;
+#SCS{
+    color: #ef3b46 !important;
     font-size: 24px;
 }
 
 /*change font of @ company */
 .company{
-    color: #ffb600;
+    color: #ffb600 !important;
 }
 
 /*change font of @ club */
 .club{
-    color: #75b744;
+    color: #75b744 !important;
 }
 
 #professionally{
@@ -72,15 +76,15 @@ a:link{
 }
 
 .bivi{
-    color: #01ADEF;
+    color: #01ADEF !important;
 }
 
 .nofores{
-    color: #4D8225;
+    color: #4D8225 !important;
 }
 
 .Swartz{
-    color: #ef3b46;
+    color: #ef3b46 !important;
 }
 
 /* home page dividers */
