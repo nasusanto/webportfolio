@@ -118,7 +118,7 @@ a:link{
 
 /* Bouncing arrow */
 #down-arrow {
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     width: 80px;
     margin-top: 50px;
