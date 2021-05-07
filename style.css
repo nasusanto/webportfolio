@@ -8,14 +8,13 @@
     display: inline-block;
 }
 
-
-/* change color of navbar links when hovering */
-.nav-link a:hover{
-    color: #ef3b46;
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 24px;
 }
 
-.nav-item.nav-link.active, .nav-item.nav-link:hover{
-    color: #ef3b46!important;
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ef3b46;
 }
 
 /*************************/
@@ -46,29 +45,24 @@
     font-weight: bold;
 }
 
-/* links removed underline*/
-a:link{
-    text-decoration: none;
-}
-
-#Tepper{
+.Tepper{
     color: #ef3b46;
     font-size: 24px;
 }
 
-#SCS{
-    color: #ef3b46 !important;
+.SCS{
+    color: #ef3b46;
     font-size: 24px;
 }
 
 /*change font of @ company */
 .company{
-    color: #ffb600 !important;
+    color: #ffb600;
 }
 
 /*change font of @ club */
 .club{
-    color: #75b744 !important;
+    color: #75b744;
 }
 
 #professionally{
@@ -76,15 +70,15 @@ a:link{
 }
 
 .bivi{
-    color: #01ADEF !important;
+    color: #01ADEF;
 }
 
 .nofores{
-    color: #4D8225 !important;
+    color: #4D8225;
 }
 
 .Swartz{
-    color: #ef3b46 !important;
+    color: #ef3b46;
 }
 
 /* home page dividers */
@@ -103,6 +97,14 @@ a:link{
 .hobbies-title{
     font-size: 36px;
     font-weight: bold;
+}
+
+.golf{
+    color: green;
+}
+
+.survivor{
+    color: gray;
 }
 
 /*************************/
