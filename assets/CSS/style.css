@@ -169,6 +169,10 @@
     border-color: #BD2125 !important;
 }
 
+.reset-link {
+    color: initial;
+}
+
 
 /*************************/
 
