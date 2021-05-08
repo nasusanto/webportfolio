@@ -37,7 +37,7 @@ var blogs = [
         title: "Everything happens for a reason",
         subtitle: "The crazy life motto I live by.",
         categories: ["Life"],
-        href: "life-blog/everyhappens.html",
+        href: "everyhappens.html",
     },
     {
         title: "The f*** it mentality",
