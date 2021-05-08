@@ -1,0 +1,188 @@
+* {
+    font-family: "Baloo 2";
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+/* changing nav bar link color and adding hover color */
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 24px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ef3b46;
+}
+
+/*************************/
+/* Introduction Page */
+
+/* hello introduction part */
+.hello{
+    font-size: 72px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hello-traits{
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hello-CMU{
+    font-size: 36px;
+    text-align: center;
+    color: #ef3b46;
+    font-weight: bold;
+}
+
+.professionally-title{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.Tepper{
+    color: #ef3b46;
+    font-size: 24px;
+}
+
+.SCS{
+    color: #ef3b46;
+    font-size: 24px;
+}
+
+.company{
+    color: #ffb600;
+}
+
+.club{
+    color: #75b744;
+}
+
+#professionally{
+    font-size: 24px;
+}
+
+.bivi{
+    color: #01ADEF;
+}
+
+.nofores{
+    color: #4D8225;
+}
+
+.Swartz{
+    color: #ef3b46;
+}
+
+/* home page dividers */
+.line {
+    width: 90%;
+    margin: 0 auto;
+    background-color:rgba(239, 59, 70, 0.3);
+    opacity: 1;
+}
+
+#hobbies{
+    font-size: 24px;
+    padding: 16px;
+}
+
+.hobbies-title{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.golf{
+    color: green;
+}
+
+.survivor{
+    color: gray;
+}
+
+/*************************/
+
+/* My Story Page */
+.story-title {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.story-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 100px;
+}
+
+/* Bouncing arrow */
+#down-arrow {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    width: 80px;
+    margin-top: 50px;
+}
+
+.vertical-bounce {
+    animation-name: vertical-bounce;
+    animation-timing-function: ease;
+}
+@keyframes vertical-bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-30px); }
+    100% { transform: translateY(0); }
+}
+
+/*************************/
+
+/* Experiences Page */
+
+.experiences-title {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.experience-row {
+    border-radius: 16px;
+    box-sizing: border-box !important;
+}
+
+#bivi-experience {
+    border-color: #01ADEF !important;
+}
+
+#nofores-experience {
+    border-color: #4D8225 !important;
+}
+
+#consulting-experience{
+    border-color: #75B744 !important;
+}
+
+#profdev-experience{
+    border-color: #BD2125 !important;
+}
+
+
+/*************************/
+
+/* Blog Page */
+.blog-title{
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.categories-title{
+    font-size: 36px;
+}
+
+.blog-divider{
+    background-color:rgba(239, 59, 70);
+    width: 90%;
+}

@@ -10,10 +10,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 
         <!--linking css style sheet-->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/CSS/style.css">
 
         <!--linking js sheet -->
-        <script src="main.js"></script> 
+        <script src="assets/JS/main.js"></script> 
 
         <!--word typing animation sourced by https://github.com/mattboldt/typed.js/-->
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -31,7 +31,7 @@
 
         <!--tab title-->
         <title>My Story</title>
-        <link rel="icon" href="Images/favicon.ico">
+        <link rel="icon" href="assets/Images/favicon.ico">
         
     </head>
     <body>
@@ -39,7 +39,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">
-                <img src = "images/NS Logo.png" alt = "NS logo" width="50">
+                <img src = "assets/Images/NS-Logo.png" alt = "NS logo" width="50">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -66,8 +66,8 @@
             <div class="row">
                 <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
                     <div class="story-image-slider" style="width: 200px; height: 200px;">
-                        <img class="story-image" src="Images/Headshot.png" alt="Headshot">
-                        <img class="story-image" src="Images/Casual Headshot.jpg" alt="Casual Headshot">
+                        <img class="story-image" src="assets/Images/Headshot.png" alt="Headshot">
+                        <img class="story-image" src="assets/Images/Casual-Headshot.jpg" alt="Casual Headshot">
                     </div>            
                 </div>
                 <div class="col-12 col-md-8">
@@ -82,7 +82,7 @@
             <!--bouncing arrow animation sourced by https://css-tricks.com/making-css-animations-feel-natural/-->
             <div class="row">
                 <div class="col-12 text-center">
-                    <img src="Images/arrow.png" alt="Down Arrow" id="down-arrow" class="vertical-bounce">
+                    <img src="assets/Images/arrow.png" alt="Down Arrow" id="down-arrow" class="vertical-bounce">
                 </div>
             </div>
             
@@ -96,10 +96,10 @@
         </div>
 
         <!--Slick image animation sourced by https://kenwheeler.github.io/slick/-->
-          <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-          <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-          <script type="text/javascript">
+          <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+          <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+          <script>
             $(document).ready(function(){
               $('.story-image-slider').slick({
                     dots: false,
@@ -124,7 +124,7 @@
         <footer class="page-footer">
             <div class="footer-copyright text-center">
                 Site developed with love ❤️
-                </a><br></br> © Nadia Susanto </div>
+                <br> © Nadia Susanto </div>
         </footer>
     </body>
 </html>
