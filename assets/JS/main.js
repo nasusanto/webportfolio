@@ -1,3 +1,5 @@
+//blog JS to create categories and have them organized by categories//
+
 var categories = ['Entrepreneurship', 'Life', 'College', 'Professional', 'Networking', 'Sports'];
 var selectedCategory = null;
 
